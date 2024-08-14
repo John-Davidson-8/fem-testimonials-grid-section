@@ -17,7 +17,7 @@ body {
   align-items: center;
   font-family: var(--bodyFont);
 }
-
+/* utilities */
 main {
   max-width: 22rem;
   margin: 1rem;
@@ -46,35 +46,56 @@ img {
 .avatar-text-white {
   color: #fff;
 }
-.daniel-card {
-  background-color: #733fc8;
+.avatar-text-grey {
+  color: #48556a;
 }
 .avatar-verify {
-  color: #fff;
   font-size: 0.68rem;
   line-height: 0.68rem;
 }
-.avatar-verify-text {
+.avatar-verify-white {
   color: #fff;
 }
 h3 {
-  margin-bottom: 2.5rem;
-}
-h3 {
-  color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 .testimonial {
   font-size: 0.8125rem;
   font-weight: 500;
   line-height: 1.125rem;
 }
+/* daniel card */
+.daniel-card {
+  background-color: #733fc8;
+}
+.daniel-card h3 {
+  color: #fff;
+}
 .daniel-testimonial {
   color: #cfcfcf;
 }
-
-/* img {
-  height: 1.75rem;
-  width: 1.75rem;
-} */
+/* jonathan card */
+.jonathan-card {
+  background-color: #48556a;
+}
+.jonathan-card h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.jonathan-testimonial {
+  color: #fff;
+}
+/* margin between h3 and testimonial paragraph to over rule h3 selector above*/
+/* Jeanette Card */
+.jeanette-card {
+  background-color: #fff;
+}
+.jeanette-card h3 {
+  color: #48556a;
+  margin-bottom: 1rem;
+}
+.jeanette-testimonial {
+  color: #48556a;
+}
