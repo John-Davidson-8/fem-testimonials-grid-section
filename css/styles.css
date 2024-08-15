@@ -11,16 +11,12 @@
 }
 body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: var(--bodyFont);
 }
 /* utilities */
 main {
   max-width: 22rem;
-  margin: 1rem;
+  margin: 5rem auto;
 }
 section {
   margin-bottom: 1.5rem;
@@ -98,4 +94,17 @@ h3 {
 }
 .jeanette-testimonial {
   color: #48556a;
+}
+/* patrick card */
+.patrick-card {
+  background-color: #19202d;
+}
+.patrick-card h3 {
+  color: #ecf2f8;
+}
+.patrick-testimonial {
+  color: #fff;
+}
+.patrick-card h3 {
+  margin-bottom: 1rem;
 }
