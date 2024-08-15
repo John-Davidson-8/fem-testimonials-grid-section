@@ -12,17 +12,19 @@
 body {
   height: 100vh;
   font-family: var(--bodyFont);
+  background-color: #ecf2f8;
 }
 /* utilities */
 main {
   max-width: 22rem;
   margin: 5rem auto;
 }
-section {
+/* section {
   margin-bottom: 1.5rem;
-}
+} */
 .card {
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
@@ -85,9 +87,6 @@ h3 {
 }
 /* margin between h3 and testimonial paragraph to over rule h3 selector above*/
 /* Jeanette Card */
-.jeanette-card {
-  background-color: #fff;
-}
 .jeanette-card h3 {
   color: #48556a;
   margin-bottom: 1rem;
@@ -101,10 +100,18 @@ h3 {
 }
 .patrick-card h3 {
   color: #ecf2f8;
+  margin-bottom: 1rem;
 }
 .patrick-testimonial {
   color: #fff;
 }
-.patrick-card h3 {
+/* kira card */
+.kira-card {
+  color: #48556a;
+}
+.kira-testimonial {
+  color: #48556a;
+}
+.kira-card h3 {
   margin-bottom: 1rem;
 }
