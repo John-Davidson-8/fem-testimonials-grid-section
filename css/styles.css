@@ -115,7 +115,7 @@ h3 {
 /* media queries  */
 @media (min-width: 40rem) {
   main {
-    max-width: 70rem;
+    max-width: 80rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
