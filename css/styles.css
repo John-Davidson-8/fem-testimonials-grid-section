@@ -112,3 +112,28 @@ h3 {
 .kira-card h3 {
   margin-bottom: 1rem;
 }
+/* media queries  */
+@media (min-width: 40rem) {
+  main {
+    max-width: 70rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.8rem;
+  }
+  .daniel-card {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .jonathan-card {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .jeanette-card {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .patrick-card {
+    grid-area: 2 / 2 / 3 /4;
+  }
+  .kira-card {
+    grid-area: 1 / 4 / 3 / 5;
+  }
+}
