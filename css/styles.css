@@ -136,4 +136,7 @@ h3 {
   .kira-card {
     grid-area: 1 / 4 / 3 / 5;
   }
+  .kira-card {
+    max-width: 16rem;
+  }
 }
