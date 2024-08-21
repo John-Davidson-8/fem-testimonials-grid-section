@@ -12,12 +12,12 @@
 body {
   height: 100vh;
   font-family: var(--bodyFont);
-  background-color: #ecf2f8;
+  background-color: #ffffff;
 }
 /* utilities */
 main {
   max-width: 22rem;
-  margin: 5rem auto;
+  margin: 10rem auto;
 }
 .card {
   padding: 1.5rem;
@@ -135,8 +135,5 @@ h3 {
   }
   .kira-card {
     grid-area: 1 / 4 / 3 / 5;
-  }
-  .kira-card {
-    max-width: 16rem;
   }
 }
